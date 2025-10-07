@@ -1,0 +1,7 @@
+version: "3.9"
+services:
+  brain:
+    build: .
+    env_file: .env
+    ports:
+      - "8080:8080"
